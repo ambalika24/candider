@@ -1,0 +1,105 @@
+.Background {
+    background-image: url("https://candider.com//media/blog_images/ankit-ahir-oVmzO_zVHzg-unsplash.jpg");
+    background-size: cover;
+    height: 90vh;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 45%);
+    max-height: 90vh;
+    position: absolute;
+    z-index: 1;
+    width:100%;
+  }
+  .Header_Container {
+    flex: 3;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:45%;
+    padding-top: 11vh;
+  }
+  
+  .Main_Heading {
+    width: 100%;
+    height: 9vh;
+    font-size: 10vh;
+    color: #fff;
+    padding: 22px;
+    font-family: AvenirLTPro-Heavy;
+    text-align: center;
+  }
+  
+  .Sub_Heading {
+    max-height: 4vh;
+    color: #fff;
+    font-size: 2.5vh;
+    text-align: center;
+    margin-bottom: 4vh;
+    margin-top: 1vh;
+    flex: 2 1;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Header_Dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 45px;
+    border-color: #fff;
+    margin: 5px;
+    background-color: #fff;
+    font-size: 2.5vh;
+  }
+  
+  .Search_Container {
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 45px;
+    max-height: 4vh;
+    width: 20vw;
+    border: 1px solid #000;
+    flex: 2 1;
+    flex-direction: row;
+    display: flex;
+    box-shadow: 0 6px 8.3px 0 rgb(0 0 0 / 39%);
+    font-size: 2vh;
+  }
+  
+  .Search_Link {
+    height:100%;
+    width:93%;
+  }
+  
+  .Search_Link a{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  
+  }
+  
+  .Search_Text{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    color: #000;
+    background-color: transparent;
+    margin-left: 1vw;
+    font-size: 2vh;
+    height: 40.96px;
+    line-height: 46.08px;
+  }
+  
+  .Search_Icon {
+    color: #000;
+    margin-left: 3%;
+  }
+  
+  .Add_Icon{
+    color: #000;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+  }
